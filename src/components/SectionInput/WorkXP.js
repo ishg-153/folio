@@ -2,9 +2,9 @@ import SectionInput from "./SectionInput"
 
 const workXP = (props) => {
 
-    const values = props.givenValues
-    const skillOne = props.onChangeOne
-    const skillTwo = props.onChangeTwo
+    // const values = props.givenValues
+    // const skillOne = props.onChangeOne
+    // const skillTwo = props.onChangeTwo
 
     return (<div>
         <div className='details'>
