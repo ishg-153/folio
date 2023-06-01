@@ -47,6 +47,8 @@ function ResumeBuilder() {
               },
           });
 
+       console.log(setResumeInformation)   
+
     return <div>
           
           <Workspace information={resumeInformation}/>

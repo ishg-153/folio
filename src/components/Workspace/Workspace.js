@@ -59,7 +59,7 @@ function Workspace(props) {
     useEffect(() => {
         setActiveInformation(information[Sections[currentSection].title]);
         setSectionTitle(Sections[currentSection].title);
-    }, [currentSection]);
+    }, [currentSection, information]);
 
 
     const NextButtonClick = () => {
