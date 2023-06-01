@@ -1,0 +1,19 @@
+ul {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0rem 4rem;
+}
+
+li {
+    list-style-type: none;
+    margin: 1rem;
+}
+
+.navLink {
+    color: black;
+    text-decoration-line: none;
+    font-size: 1.3rem;
+    padding: 1.2rem;
+}

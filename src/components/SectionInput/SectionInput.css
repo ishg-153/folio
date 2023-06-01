@@ -1,0 +1,29 @@
+.form-component {
+    font-size: 1.1rem;
+    margin: 2rem 3rem;
+}
+
+.details {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.detail-item {
+    display: inline-grid;
+}
+
+input{
+    display: block;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 0.05rem #25252585 line;
+    margin: 1rem 0rem;
+    width: 100%;
+    font-size: 1.1rem;
+}
+
+input:focus {
+    outline: none;
+}
